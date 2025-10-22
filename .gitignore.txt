@@ -1,0 +1,55 @@
+# ===============================
+# PROJETO RODOPENHA CHECKLIST
+# Python + Streamlit + PyCharm
+# ===============================
+
+# --- Python ---
+__pycache__
+.py[cod]
+$py.class
+
+# --- Ambiente Virtual ---
+venv
+.venv
+ENV
+env
+
+# --- Logs e cache ---
+.log
+.tmp
+.bak
+.DS_Store
+Thumbs.db
+
+# --- Saídas geradas ---
+saidas
+outputs
+.pdf
+.docx
+
+# --- Streamlit ---
+.streamlitsecrets.toml
+.streamlitcache
+.streamlitconfig.toml
+
+# --- IDEs e ferramentas ---
+.idea
+.vscode
+.iml
+
+# --- Arquivos temporários de sistema ---
+~$
+.swp
+.swo
+
+# --- Jupyter (caso use notebooks depois) ---
+.ipynb_checkpoints
+
+# --- Testes ---
+.coverage
+.pytest_cache
+
+# --- Compilações  builds ---
+build
+dist
+.egg-info

@@ -1,0 +1,25 @@
+# ===============================
+# PROJETO RODOPENHA CHECKLIST
+# Dependências principais
+# ===============================
+
+# Framework web interativo
+streamlit==1.38.0
+
+# Manipulação de arquivos Word (.docx)
+python-docx==1.1.2
+
+# Manipulação de dados (caso futuramente integre tabelas ou planilhas)
+pandas==2.2.2
+
+# Criação de PDFs em ambiente Linux (usa ReportLab, não precisa do MS Word)
+reportlab==4.2.2
+
+# --- Dependências opcionais (rodar localmente) ---
+# Converte DOCX para PDF via Word (NÃO FUNCIONA no Streamlit Cloud)
+# Deixe instalado apenas no ambiente local
+docx2pdf==0.1.8
+
+# --- Utilitários diversos ---
+# Facilita manipulação de paths e arquivos
+pathlib==1.0.1
